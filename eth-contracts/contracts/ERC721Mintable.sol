@@ -7,6 +7,7 @@ import 'openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol';
 import "./Oraclize.sol";
 
 contract Ownable {
+
     //  TODO's
     //  1) create a private '_owner' variable of type address with a public getter function
     address private _owner;
@@ -35,7 +36,9 @@ contract Ownable {
     function transferOwnership(address newOwner) public onlyOwner {
         // TODO add functionality to transfer control of the contract to a newOwner.
         // make sure the new owner is a real address
+
         _owner = newOwner;
+        // Transfer Owner
         emit ownershipTransferred(_owner);
     }
 }
@@ -495,14 +498,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     mapping (uint256 => string) private _tokenURIs;
 
     bytes4 private constant _INTERFACE_ID_ERC721_METADATA = 0x5b5e139f;
-    /*
-     * 0x5b5e139f ===
-     *     bytes4(keccak256('name()')) ^
-     *     bytes4(keccak256('symbol()')) ^
-     *     bytes4(keccak256('tokenURI(uint256)'))
-     */
-
-
+ 
     constructor (string memory name, string memory symbol, string memory baseTokenURI) public {
         // TODO: set instance var values
         _name = name;

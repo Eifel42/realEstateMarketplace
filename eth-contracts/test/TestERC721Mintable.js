@@ -1,8 +1,8 @@
 var ERC721Mintable = artifacts.require('ERC721Mintable');
 
 contract('TestERC721Mintable', accounts => {
-    let propertyName = "Manish First Property";
-    let propertySymbol = "Manish Nivas";
+    let propertyName = "Eifel First Property";
+    let propertySymbol = "Eifel Test";
     let propertyBaseURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/";
 
     const account_one = accounts[0];

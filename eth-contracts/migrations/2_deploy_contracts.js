@@ -5,7 +5,7 @@ var SolnSquareVerifier = artifacts.require("../contracts/SolnSquareVerifier");
 const fs = require('fs');
 
 module.exports = function (deployer) {
-    let propertyName = "Manish Properties";
+    let propertyName = "Eifel Properties";
     let propertySymbol = "*";
     let propertyBaseURI = "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/";
     deployer.deploy(ERC721Mintable, propertyName, propertySymbol, propertyBaseURI);

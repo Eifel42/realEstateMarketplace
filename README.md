@@ -2,23 +2,21 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
 
-# How to mint a new token without verification (Only for testing)
-Run the following in the truffle console
-`for(let i=1;i<=10;i++){SolnSquareVerifier.deployed().then(e=>e.mint("..",i,{from:"..."})).then(e=>{console.log(e)}).catch(e=>{console.log(e)});}`
-
 # Truffle Test
 - Run `truffle test` to test the code.
 
 # Rinkeby Contract Address
 First the `Verifier` contract is deployed then the `SolnSquareVerifier` contract using the `Verifier` address.
-- Verifier - https://rinkeby.etherscan.io/address/
-- SolnSquareVerifier - https://rinkeby.etherscan.io/address/
-
-# Contract ABI
+- Verifier - https://rinkeby.etherscan.io/address/0x14d2d14f1f471806544bbc82ef7d236fc842c971
+- SolnSquareVerifier - https://rinkeby.etherscan.io/address/0x52ac75a6109be746906c0f4d206b87a9e3720e37
+# Contract A
 All contract API are in the build folder
 
 # OpenSea MarketPlace Storefront
-TODO
+On Action https://rinkeby.opensea.io/assets/0x7843cb857965631bf1341aa4f8c37227445d525a/1
+Sell https://rinkeby.opensea.io/assets/0xb3f8f9b66b5194027334079d68d1875487077463/1
+Bought https://rinkeby.opensea.io/assets/0x4910baa9da084cedf65b5d34ed1dcd63838c63d7/1
+
 
 # Project Resources
 
@@ -30,3 +28,6 @@ TODO
 * [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
+
+## Acknowledgments
+* udacity
