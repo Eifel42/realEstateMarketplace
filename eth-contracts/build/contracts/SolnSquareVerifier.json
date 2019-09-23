@@ -729,13 +729,13 @@
           }
         ],
         "contractDependencies": [
-          178,
+          132,
+          969,
+          1122,
+          1081,
           62,
           671,
-          969,
-          1081,
-          1122,
-          132,
+          178,
           7447
         ],
         "contractKind": "contract",
@@ -3494,13 +3494,13 @@
           }
         ],
         "contractDependencies": [
-          178,
+          132,
+          969,
+          1122,
+          1081,
           62,
           671,
-          969,
-          1081,
-          1122,
-          132,
+          178,
           7447
         ],
         "contractKind": "contract",
@@ -6336,7 +6336,7 @@
     }
   },
   "schemaVersion": "3.0.14",
-  "updatedAt": "2019-09-23T00:53:51.334Z",
+  "updatedAt": "2019-09-23T00:57:29.960Z",
   "devdoc": {
     "methods": {
       "isApprovedForAll(address,address)": {
