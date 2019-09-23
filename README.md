@@ -9,13 +9,14 @@ The capstone will build upon the knowledge you have gained in the course in orde
 First the `Verifier` contract is deployed then the `SolnSquareVerifier` contract using the `Verifier` address.
 - Verifier - https://rinkeby.etherscan.io/address/0x14d2d14f1f471806544bbc82ef7d236fc842c971
 - SolnSquareVerifier - https://rinkeby.etherscan.io/address/0x52ac75a6109be746906c0f4d206b87a9e3720e37
-# Contract A
+
+# Contract API
 All contract API are in the build folder
 
 # OpenSea MarketPlace Storefront
-On Action https://rinkeby.opensea.io/assets/0x7843cb857965631bf1341aa4f8c37227445d525a/1
-Sell https://rinkeby.opensea.io/assets/0xb3f8f9b66b5194027334079d68d1875487077463/1
-Bought https://rinkeby.opensea.io/assets/0x4910baa9da084cedf65b5d34ed1dcd63838c63d7/1
+- On Action https://rinkeby.opensea.io/assets/0x7843cb857965631bf1341aa4f8c37227445d525a/1
+- Sell https://rinkeby.opensea.io/assets/0xb3f8f9b66b5194027334079d68d1875487077463/1
+- Bought https://rinkeby.opensea.io/assets/0x4910baa9da084cedf65b5d34ed1dcd63838c63d7/1
 
 
 # Project Resources
