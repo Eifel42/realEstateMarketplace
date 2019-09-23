@@ -28910,12 +28910,12 @@
         }
       },
       "links": {},
-      "address": "0x456eEd1b876C5B61ECabf9df63Dd9A24eE32bAFB",
-      "transactionHash": "0x69f36bfc34e9b3e1ecb47d8ca939e4547622e7af86b0eb7aba3c0d6bd6c06a92"
+      "address": "0xc237Cd4f41b22b2BECbAE9a7586ab4865EeF4F69",
+      "transactionHash": "0x8c17570eabdaa26d38dc5af1fed90adb77ff20f2734dba87e441ba2eff90bc16"
     }
   },
   "schemaVersion": "3.0.14",
-  "updatedAt": "2019-09-22T23:39:58.101Z",
+  "updatedAt": "2019-09-23T00:53:51.285Z",
   "devdoc": {
     "methods": {
       "isApprovedForAll(address,address)": {
