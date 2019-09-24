@@ -19,8 +19,8 @@
  */
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const mnemonic = "omit behind fossil club monkey tongue reopen write vacant shock wolf shaft";
-const infuraKey = "5f5c545f077543beaa661866ef8c435d";
+const mnemonic = "omit behi.. shaft";
+const infuraKey = "5f5c...435d";
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
